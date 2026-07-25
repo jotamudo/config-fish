@@ -77,10 +77,3 @@ function load-dot-env
         set -gx $name $sub2
     end
 end
-
-switch (uname)
-    case Darwin
-        source ./macos.fish
-    case Linux
-        source ./linux.fish
-end

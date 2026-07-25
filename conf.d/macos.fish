@@ -1,3 +1,7 @@
+if test "$(uname)" != Darwin
+  return
+end
+
 function get_brew_llvm_env
   # TODO: this doesn't clear the f-ing variable for some god forsaken reason :D
   set -eg LDFLAGS
