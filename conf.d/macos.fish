@@ -32,6 +32,7 @@ fish_add_path /opt/homebrew/opt/ruby/bin
 fish_add_path /opt/homebrew/lib/ruby/gems/3.3.0/bin
 fish_add_path /opt/homebrew/opt/ccache/libexec
 fish_add_path /opt/homebrew/opt/rustup/
+fish_add_path /opt/homebrew/opt/rustup/bin
 # mysql
 fish_add_path /opt/homebrew/opt/mysql-client/bin
 set -gx LDFLAGS "-L/opt/homebrew/opt/mysql-client/lib"
